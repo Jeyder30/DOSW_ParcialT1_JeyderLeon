@@ -21,16 +21,16 @@ https://lucid.app/lucidchart/41833eac-279b-4d93-afe1-173b7e13251b/edit?viewport_
 ## Punto 2: Identifique 2 patrones de diseño que puedan aplicarse al caso de estudio,
 ### especificando por cada uno:
 #### a. Nombre del Patrón
-Factory method
+Builder
 #### b. Tipo de patrón (creacional, estructural o de comportamiento).
 creacional
 #### c. Justificación de la decisión.
-Este puede ser un patron de diseño para poder manejar los diferentes validaciones que necesitamos para la solicitud
+Este puede ser un patron de diseño para poder manejar los datos que pueden ser opcionales
 
 ### segundo patron de diseño
 
-#### a. Nombre del Patrón
-Strategy
+#### a. Nombre de patron
+
 #### b. Tipo de patrón (creacional, estructural o de comportamiento).
 comportamiento 
 #### c. Justificación de la decisión.
@@ -58,5 +58,43 @@ https://viewer.diagrams.net/?tags=%7B%7D&lightbox=1&highlight=0000ff&edit=_blank
 ## Caso de uso 2
 <img width="826" height="337" alt="image" src="https://github.com/user-attachments/assets/1a7a7bb5-675d-489e-9d36-7294150bdf51" />
 https://viewer.diagrams.net/?tags=%7B%7D&lightbox=1&highlight=0000ff&edit=_blank&layers=1&nav=1&title=validaciones.drawio&dark=auto#R%3Cmxfile%3E%3Cdiagram%20name%3D%22Page-1%22%20id%3D%22A--RKh0kL--vs-H5oEem%22%3E7Zldb9owFIZ%2FTS475QNId1k%2B1k3rpkpsWndpYpN4cuLUcQL01%2B%2BYOF8kQxQIRequGr8%2Bcexz%2FD6yqeFMwvW9QHHwjWPCDNvEa8OZGrZtDewR%2FFHKJldc180FX1CsgyphTl%2BIFk2tphSTpBEoOWeSxk3R41FEPNnQkBB81Qxbctb8aox80hLmHmJt9RfFMsjV26FZ6Z8J9YPiy5ape0JUBGshCRDmq5rkzAxnIjiX%2BVO4nhCmklfkJX%2Fv0z96y4kJEslDXljejwf4Kcts9hzMFpn99YVnN04%2BCsGtLFTDainhqfDInrGKOLkpkqeGnesmFzLgPo8Qm1XqWPA0wkTN0IRWFfPAeQyiBeIfIuVGbwyUSg5SIEOme2GWYvOk3982fqvGh2HRnK7rndONbumthIRP5J412WWhYIcTHhIYA94ThCFJs2bOkN5qfhlXVQMedEFeUZw9tahyDNsqVo9pyO48yQWsLSNCUtjCD2hB2CNPqKQ8gpAFl5KHtYA7Rn3VIVWy61nlqWQ0IpPSVFXKMsRS%2Fek7HNKIJlLAxhaGPWIQOcY0g0dfbl%2FIpYXYVSAdjbjtwDApsq4ts532oOa0kbbVqnKlo6VikIIhm6LbhW3RT6mGZ%2FSR%2FRY%2BOtAPg9YmeEuDjBrsR4siX2Y7%2BfuqtpPprW2a2UHaKB6MR0SHg0KKcV4IktAXPRNVipjTSG7XPRwbw2mXjcAGKFQG1Naot758nzz8nM5K0W%2BEvM49nTXRr9yYHyx3jzn0aI9qNZWjdurKl8sEds9uVcspHF9o%2BxASwjhwKlBFWAVUknmMtjZbwcGka6%2FXKvAIxxahFmJMHGNsIUxFHkAx8oCdcABRnbbJ0NbAjHpUpvgoblnmsAUua9Qkl7NDLjhv9OSg2zNya3DF3HKvilsfT%2BTW7X9u1bh1OLb6B9WgX1D9oDFXlynSwFNvHBqZl%2BKQZZ0RRO4Vg6gg%2B5WQyLJPRJHVfet75ywq%2FHJFZHL7JRNcFTEtz0otQOlkR4skPvbCdwywBq7Zl3EGZwRWAYXrJJZzXcQankqs7nPqeyTW6y59%2FTPK6qjhOSE1AxKZz6mCExeYqBZJZHmxu8CJyrEvBiind%2BAvqQiR6MrehXBvnZ5MaFY%2Fwef7uPpHhjP7Cw%3D%3D%3C%2Fdiagram%3E%3C%2Fmxfile%3E
-## Historias de usuario
+
+## HISTORIAS DE USUARIO
+
+## Requerimientos Funcionales
+
+
+## RF-03 – Debe poder crear una solicitud
+
+**Descripción:**  
+El sistema debe permitir el poder crear la solicitud de cuentas digitales
+
+**Cómo se ejecutará:**  
+El usuario dara clic en crear solicitud y tendra que llenar la informacion que se le solicita para las cuentas digitales
+
+**Actor Principal:**  
+Usuarios
+
+
+### Precondicionales:
+N/A
+
+
+## RF-04 Debe porder añadir nuevas validaciones
+
+**Descripción:**  
+El sistema debe poder añadir nuevas validaciones sin tener que afectar los demas
+
+**Cómo se ejecutará:**  
+El administraor crea una nueva vlidacion indicando el tipo de validacion, que condiciones va a tener, en que orden va a estar la validacion y por ultimo confirmar la validacion
+
+**Actor Principal:**  
+Administrador 
+
+**Precondiciones:**  
+Debe tener una solicitud para poder crear una validacion nueva ya que sin la solicitud no podemos validar nada
+
+## Punto 5:Especifique los 2 requerimientos funcionales seleccionados en el punto anterior, siguiendo la plantilla de Análisis de requerimientos.
+
+
 
