@@ -96,5 +96,5 @@ Debe tener una solicitud para poder crear una validacion nueva ya que sin la sol
 
 ## Punto 5:Especifique los 2 requerimientos funcionales seleccionados en el punto anterior, siguiendo la plantilla de Análisis de requerimientos.
 
-
+## Esta incluido en la carpeta requerimientos en DOCS
 
