@@ -34,7 +34,7 @@ Este puede ser un patron de diseño para poder manejar los datos que pueden ser 
 #### b. Tipo de patrón (creacional, estructural o de comportamiento).
 comportamiento 
 #### c. Justificación de la decisión.
-Este puede ser un patron de diseño para poder manejar diferentes algoritmos que en este caso son las validaciones para resolver un problema que eneste caso seria la solicitud d la base de datos
+Este puede ser un patron de diseño para poder pasar por una serie de validaciones en el sistema central
 
 ## Punto 3: Identifique 5 requerimientos del sistema y clasifíquelos en funcionales (3) y no funcionales (2). Garantice que al menos un requerimiento funcional seleccionado utilice uno o los dos patrones identificados. 
 
@@ -106,4 +106,6 @@ https://jeyderlancherosparcial.atlassian.net/browse/SCRUM-6?atlOrigin=eyJpIjoiZm
 
 ## Punto 7: Realice un diagrama de clases que permita entender su solución. Mencione, ¿cuáles principios SOLID está aplicando? ¿Y por qué?
 
+En este diagrama se esta implementando el principio de single responsability para que cada clase se encargue de hacer una sola cosa ypoder en un futuro extender el codigo,
+ ademas de que tambien aplicamos el open/closed para tener un buen polimrfismo y no tener que depender mucho de clases o metodos
 
