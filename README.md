@@ -97,4 +97,9 @@ Debe tener una solicitud para poder crear una validacion nueva ya que sin la sol
 ## Punto 5:Especifique los 2 requerimientos funcionales seleccionados en el punto anterior, siguiendo la plantilla de Análisis de requerimientos.
 
 
+## Punto 6: Seleccione un requerimiento asociado al o patrones identificados y realice la descomposición de tareas asociadas: Épica - Historia de Usuario - Al menos 3 tareas.
+<img width="1661" height="806" alt="image" src="https://github.com/user-attachments/assets/cd1e9aeb-9926-48f8-acdc-12d08f0ebf69" />
+https://jeyderlancherosparcial.atlassian.net/browse/SCRUM-6?atlOrigin=eyJpIjoiZmM0NzRhOTVjMDlkNDcxOTgxNWIzNGEwNzA0YWYyMzAiLCJwIjoiaiJ9
+
+## Punto 7: Realice un diagrama de clases que permita entender su solución. Mencione, ¿cuáles principios SOLID está aplicando? ¿Y por qué?
 
