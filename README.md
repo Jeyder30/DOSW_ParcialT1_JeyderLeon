@@ -77,7 +77,9 @@ Usuarios
 
 
 ### Precondicionales:
-N/A
+- Programa habilitado para solicitud
+- Aceptación de política de datos
+- Conexión a internet
 
 
 ## RF-04 Debe porder añadir nuevas validaciones
@@ -96,8 +98,7 @@ Debe tener una solicitud para poder crear una validacion nueva ya que sin la sol
 
 ## Punto 5:Especifique los 2 requerimientos funcionales seleccionados en el punto anterior, siguiendo la plantilla de Análisis de requerimientos.
 
-
-## Esta incluido en la carpeta requerimientos en DOCS
+Esta incluido en la carpeta requerimientos en DOCS
 
 ## Punto 6: Seleccione un requerimiento asociado al o patrones identificados y realice la descomposición de tareas asociadas: Épica - Historia de Usuario - Al menos 3 tareas.
 <img width="1661" height="806" alt="image" src="https://github.com/user-attachments/assets/cd1e9aeb-9926-48f8-acdc-12d08f0ebf69" />
